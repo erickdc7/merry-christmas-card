@@ -92,3 +92,60 @@ body {
   width: 400px;
   transition: all 0.3s ease-out;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .images .santa {
+    width: calc(400px - 50px);
+  }
+
+  .card .title {
+    top: 20px;
+  }
+
+  .card .images .tree {
+    width: calc(400px - 50px);
+  }
+
+  .card .title h2 {
+    font-size: 25px;
+  }
+
+  .card .title h1 {
+    font-size: 50px;
+  }
+
+  .card .title h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card .images .santa {
+    width: calc(400px - 150px);
+  }
+
+  .card .images .tree {
+    width: calc(400px - 150px);
+  }
+
+  .card .title h2 {
+    font-size: 25px;
+  }
+
+  .card .title h1 {
+    font-size: 40px;
+  }
+
+  .card .title h3 {
+    font-size: 20px;
+  }
+}
